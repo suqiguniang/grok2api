@@ -33,7 +33,7 @@ filter_tags = ["xaiartifact","xai:tool_usage_card","grok:render"]
 # ==================== 代理配置 ====================
 [proxy]
 # 基础代理地址（代理到 Grok 官网）
-base_proxy_url = ""
+base_proxy_url = "socks5://warp:1080"
 # 资源代理地址（代理静态资源如图片/视频）
 asset_proxy_url = ""
 # 完整 CF Cookies（自动刷新写入）
